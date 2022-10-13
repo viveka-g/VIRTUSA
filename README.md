@@ -4,7 +4,11 @@
 AI-powered Nutrition Analyzer for Fitness Enthusiasts
 
 Team Members
+
  ASVANTH R
+
  ASWATH VISHNU GR
+ 
  PREMJITH KUMAR 
+ 
  SHRERAM SP
