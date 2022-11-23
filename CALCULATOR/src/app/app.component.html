@@ -1,0 +1,24 @@
+  <div class="header">
+    <h3 >CALCULATOR</h3>
+  </div>
+
+<div>
+    <td class="table">
+      <div class="display">{{display}}</div>
+      <button class="buttons" (click)="numclick(1)">1</button>
+      <button class="buttons" (click)="numclick(2)">2</button>
+      <button class="buttons" (click)="numclick(3)">3</button><br>
+      <button class="buttons" (click)="numclick(4)">4</button>
+      <button class="buttons" (click)="numclick(5)">5</button>
+      <button class="buttons" (click)="numclick(6)">6</button><br>
+      <button class="buttons" (click)="numclick(7)">7</button>
+      <button class="buttons" (click)="numclick(8)">8</button>
+      <button class="buttons" (click)="numclick(9)">9</button><br>
+
+      <button class="operators" (click)="oper('+')" >+</button>
+      <button class="buttons" (click)="numclick(0)">0</button>
+      <button class="operators" (click)="oper('-')">-</button><br>
+      <button class="operators"(click)="oper('*')">*</button>
+      <button class="operators"(click)="oper('/')">/</button>
+      <button class="equals" (click)="calculate()">=</button>
+</div>
