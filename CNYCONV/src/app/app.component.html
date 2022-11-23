@@ -1,0 +1,53 @@
+<div class="header">
+  <h1> CURRENCY CONVERTER</h1>
+</div>
+
+
+<div class="CONTAINER">
+  
+  
+  <div class="fromto">
+    <div class="FROM-BAR">FROM :
+      <select #FC>
+        <option value="SELECT"></option>
+        <option value="inr">INR</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="aud">AUD</option>
+      </select>
+    </div>
+
+    <div class="TO-BAR">TO :
+      <select #TC>
+        <option value="SELECT"></option>
+        <option value="inr">INR</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="aud">AUD</option>
+      </select>
+    </div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="number-sec">
+    
+    <div class="INPUT">
+      AMOUNT: <input class="amount" type ="number" name = "input1" [(ngModel)]="input1">
+    </div>
+    
+    <div class="RESULT">
+      <output>RESULT :</output>
+    </div>
+  
+    <div class="OUTPUT">
+      <h1 class="Result">{{Result}}</h1>
+    </div>
+  
+  </div>
+  <br>
+  
+  <button class="submit"(click)="calculate(FC.value,TC.value)">SUBMIT</button>
+
+</div>
+

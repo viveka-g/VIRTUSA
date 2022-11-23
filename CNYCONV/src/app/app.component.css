@@ -1,0 +1,108 @@
+.FROM-BAR
+{
+  display: inline-block ;
+  width: 350px;
+}
+
+.TO-BAR
+{
+  display: inline-block ;
+  width: 350px;
+}
+
+.CONTAINER{
+  background-color:khaki;
+  border:3px solid black;
+  margin: auto;
+  width: 700px;
+  display: block;
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  width: 450px;
+  margin: auto;
+}
+.submit{
+  margin-top: 10px;
+  background-color: rgb(10, 142, 223);
+  color: rgb(245, 245, 249);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.15s,box-shadow .15s;
+  vertical-align: top;
+  margin-bottom: 25px;
+}
+
+
+.submit:hover{
+  background-color: rgb(37, 49, 214);
+  width: 100px;
+}
+
+.FROM-BAR select{
+
+  width: 150px;
+  height: 25px;
+}
+
+.TO-BAR select{
+
+  width: 150px;
+  height: 25px;
+}
+
+.number-sec{
+  display: flex;
+  padding-top: 10px;
+  margin: auto;
+  width: 700px;
+  vertical-align: top;
+
+}
+.INPUT
+{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 115px;
+}
+
+.RESULT{
+  margin-right: 10px;
+}
+
+.OUTPUT
+{
+  margin-left: 0px;
+  display: inline-block;
+  border: 2PX solid rgb(16, 16, 16);
+  border-width: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding: 0;
+}
+
+.Result{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.fromto{
+  margin-top: 20px;
+}
+
+.amount{
+  width: 145px;
+}
+
